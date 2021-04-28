@@ -1,0 +1,7 @@
+venv
+.idea
+*.pyc
+lib/collection_temp.csv
+*/*.ipynb_checkpoints
+.ipynb_checkpoints
+geckodriver.log

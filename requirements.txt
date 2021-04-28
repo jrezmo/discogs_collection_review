@@ -1,0 +1,5 @@
+discogs_client
+beautifulsoup4
+requests
+pandas
+selenium
