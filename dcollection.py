@@ -87,7 +87,7 @@ for each in releases.releases:
             csv_writer.writerow(row)
 
 t = time()
-timestamp = datetime.fromtimestamp(t).strftime('_%Y%m%d_%H_%M_%S')
-out_path = Path('out/collection.csv')
+timestamp = datetime.fromtimestamp(t).strftime('_%d%m%y')
+out_path = Path('out/collection{}.csv'.format(timestamp))
 out_path.parent.mkdir(parents=True, exist_ok=True)
 write_and_clean(out_path)
