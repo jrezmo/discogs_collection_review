@@ -22,6 +22,6 @@ Run collection database scraper
 python3 dcollection.py --user 'your-username' --token 'your-developer-token'
 ```
 Run sample 
-<a href="https://nbviewer.jupyter.org/github/BartoszTonia/discogs_collection_review/blob/master/collection_review.ipynb"> Collection Review </a>
+<a href="https://nbviewer.jupyter.org/github/jrezmo/discogs_collection_review/blob/master/collection_review.ipynb"> Collection Review </a>
 
 
